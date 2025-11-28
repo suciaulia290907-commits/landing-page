@@ -2,31 +2,72 @@
 <html lang="id">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flashsoft Indonesia</title>
-    <link rel="icon" href="https://flashsoftindonesia.com/fs-logo.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://flashsoftindonesia.com/fs-logo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://flashsoftindonesia.com/fs-logo.png">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://flashsoftindonesia.com/fs-logo.png">
-    <meta name="theme-color" content="#673499">
+    <!-- ✅ Basic Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flashsoft Indonesia - Software Agency & Programming School</title>
+    <meta name="description"
+        content="Flashsoft Indonesia membantu Anda membangun solusi software profesional dan mengembangkan karier digital melalui bootcamp & programming school." />
+    <meta name="keywords"
+        content="Flashsoft Indonesia, bootcamp coding, kursus pemrograman, belajar coding, software agency, web development, programming school" />
+    <meta name="author" content="Flashsoft Indonesia" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- ✅ Favicon & Icons -->
+    <link rel="icon" href="https://flashsoftindonesia.com/fs-logo.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://flashsoftindonesia.com/fs-logo.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://flashsoftindonesia.com/fs-logo.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://flashsoftindonesia.com/fs-logo.png" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="theme-color" content="#673499" />
+
+    <!-- ✅ SEO Social Sharing (Open Graph / Facebook) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://flashsoftindonesia.com/" />
+    <meta property="og:title" content="Flashsoft Indonesia - Software Agency & Programming School" />
+    <meta property="og:description"
+        content="Bangun karier digital dan pelajari pemrograman dari dasar hingga mahir bersama Flashsoft Indonesia." />
+    <meta property="og:image" content="https://flashsoftindonesia.com/fs-logo-vertical.png" />
+    <meta property="og:site_name" content="Flashsoft Indonesia" />
+
+    <!-- ✅ Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Flashsoft Indonesia - Software Agency & Programming School" />
+    <meta name="twitter:description"
+        content="Pelajari coding, buat project nyata, dan kembangkan karier digital bersama Flashsoft." />
+    <meta name="twitter:image" content="https://flashsoftindonesia.com/fs-logo-horizontal-white.png" />
+
+    <!-- ✅ Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+    <!-- ✅ Optional: Canonical URL -->
+    <link rel="canonical" href="https://flashsoftindonesia.com/" />
+
 
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            color: black;
-            background-color:#673499;
+            line-height: 1.6;
+            color: #333;
+            background: #f2f3f6;
+            font-family: 'Inter', sans-serif;
         }
 
         /* 🌐 Navbar */
         nav {
-            display:flex;
-            align-items:center;
-            justify-content:space-between;
-            padding:15px 40px;
-            background-color:#673499;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 8%;
+            background-color: #673499;
             backdrop-filter: blur(10px);
-            position:fixed;
+            position: fixed;
             top: 0;
             left: 0;
             right: 0;
@@ -38,35 +79,35 @@
         }
 
         .nav-links {
-            display:flex;
-            gap: 25px;
+            display: flex;
+            gap: 30px;
         }
 
         .nav-links a {
-            color:#f2f3f6;
-            text-decoration:none;
-            font-size:16px;
+            color: #f1f1f1;
+            text-decoration: none;
+            font-size: 14px;
             transition: 0.3s;
         }
 
         .nav-links a:hover {
-            color:#673499;
+            color: #1EBE57;
         }
 
         .btn-nav {
-            background-color:#673499;
-            color:#f2f3f6;
-            padding:15px 40px;
-            border-radius:8px;
+            background-color: #1EBE57;
+            color: #fff;
+            padding: 8px 18px;
+            border-radius: 20px;
             border: none;
             cursor: pointer;
-            font-size:16px;
+            font-size: 14px;
             transition: 0.3s;
             text-decoration: none;
         }
 
         .btn-nav:hover {
-            background-color:#1EBE57;
+            background-color: #18a74a;
         }
 
         /* 📱 Responsive */
@@ -75,750 +116,66 @@
                 display: none;
             }
         }
-    </style>
-</head>
-
-<body>
-
-    <!-- ✅ Navbar -->
-    <nav>
-        <img src="https://flashsoftindonesia.com/fs-logo-horizontal-white.png" alt="Flashsoft Indonesia Logo">
-        <div class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#benefit">Benefit</a>
-            <a href="#testimonial">Testimonal</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#contact">Contact</a>
-        </div>
-        <a href="#pricing" class="btn-nav">Daftar Sekarang</a>
-    </nav>
-    <br>
-<footer>
-    <br>
-</footer>
-</body>
- <style>
-        .container {
-            border: 1px solid #dddddd;
-            background-color: #673499;
-            padding: 5%;
-        }
-
-        .box {
-            width: 60%;
-            background: #673499;
-            margin: 0 auto;
-            /* center horizontal */
-            color: #fff;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 8px 18px;
-            background-color: rgb(243, 237, 238);
-            color: #141414;
-            text-decoration: none;
-            border-radius: 20px;
-        }
-        .container {
-            border: 1px solid #dddddd;
-            background-color: #673499;
-            padding: 5%;
-        }
-
-        .box {
-            width: 60%;
-            background: #673499;
-            margin: 0 auto;
-            /* center horizontal */
-            color: #fff;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 8px 18px;
-            background-color: rgb(243, 237, 238);
-            color: #141414;
-            text-decoration: none;
-            border-radius: 20px;
-        }
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            line-height: 1.6;
-            color: #c739d4;
-            background: #f3e9fd;
-            font-family: 'Inter', sans-serif;
-        }
 
         header,
         section,
         footer {
-            padding: 10px;
+            padding: 60px 20px;
         }
 
         h1,
         h2,
         h3 {
             margin-bottom: 15px;
-            text-align: left;
+            text-align: center;
         }
 
         p {
             margin-bottom: 10px;
-            text-align: left;
+            text-align: center;
         }
 
-        .section {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 100px;
-            padding: 5px;
-        }
-         body {
-            line-height: 1.6;
-            color: #333;
+        .hero {
             background: #673499;
-        }
-
-        header,section, footer {
-            padding: 60px 20px;
-        }
-
-        .section-card {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 40px;
-            max-width: 1000px;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
             margin: auto;
         }
-        body {
-            line-height: 1.6;
-            color: #333;
-            background: #f2f3f6;
-            font-family: 'Inter', sans-serif;
-        }
 
-        header,
-        section,
-        footer {
-            padding: 60px 20px;
-        }
-
-        h1,
-        h2,
-        h3 {
-            margin-bottom: 15px;
-            text-align: center;
-        }
-
-        p {
+        .hero h1 {
+            font-size: 2.8em;
+            font-weight: 700;
             margin-bottom: 10px;
-            text-align: center;
         }
 
-
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 20px;
-    }
-
-    .card {
-        background: #fff;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-
-    .testimonial {
-        background: #fff;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        text-align: center;
-    }
-
-    
-
-    </style>
-
-<body>
-    <div class="container">
-        <div class="box">
-            <h1>Flashsoft Indonesia</h1>
-            <p>
-                Kami membantu Anda membangun solusi 
-                software dan mengembangkan talenta digital
-                melalui program pelatihan, bootcamp,
-                dan pembelajaran interaktif.
-            </p>
-          <a href="#pricing" class="btn">Jelajahi Program</a>
-        </div>
-    </div>
-</body>
-<body>
-
-     <!-- 2️⃣ Problem & Solution Section -->
-     <section class="section" id="problem">
-        <!-- Kiri: Card Ungu -->
-        <div style="flex:1; min-width:280px; padding:30px; text-align:center;">
-            <img src="https://flashsoftindonesia.com/fs-logo-vertical.png" alt="Logo Flashsoft" width="50%">
-        </div>
-
-        <!-- Kanan: Tantangan -->
-        <div style="flex:1; min-width:300px;">
-            <p style="text-align: start;letter-spacing: 0.1em;text-transform: uppercase;">
-                <span style="color:#6a1b9a;font-weight: bolder;">##</span>
-                Kendala dan Solusi
-            </p>
-            <h2
-                style="font-size:30px; margin-bottom:20px;text-align: start;font-weight: lighter;line-height: normal;max-width: 50%;">
-                <span style="color:#6a1b9a;font-weight: bolder;">Kendala</span> yang Sering Dihadapi Calon
-                Programmer
-            </h2>
-            <ul style="text-align:start; list-style:none;">
-                <li>
-                    <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
-                        <i class="fa-solid fa-xmark" style="color:#c00; margin-right:8px;"></i>
-                        x  Belajar Sendiri Tanpa Arah
-                    </h3>
-                </li>
-
-                <li>
-                    <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
-                        <i class="fa-solid fa-xmark" style="color:#c00; margin-right:8px;"></i>
-                        x  Kurang
-                        Latihan & Proyek Nyata
-                    </h3>
-                </li>
-
-                <li>
-                    <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
-                        <i class="fa-solid fa-xmark" style="color:#c00; margin-right:8px;"></i>
-                        x  Tidak Punya Mentor
-                    </h3>
-                </li>
-            </ul>
-
-            <hr style="color: #673499; margin: 30px 0;">
-            <h2 style="font-size:30px; margin-bottom:20px;text-align: start;font-weight: lighter;line-height: normal;">
-                <span style="color:#6a1b9a;font-weight: bolder;">Solusi</span> kami
-            </h2>
-            <ul style="text-align:start; list-style:none;">
-                <li>
-                    <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
-                        <i class="fa-solid fa-check" style="color:#1EBE57; margin-right:8px;"></i>
-                        *  Program Belajar Terarah
-                    </h3>
-                </li>
-
-                <li>
-                    <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
-                        <i class="fa-solid fa-check" style="color:#1EBE57; margin-right:8px;"></i>
-                       * Bimbingan Mentor Profesional
-                    </h3>
-                </li>
-                <li>
-                    <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
-                        <i class="fa-solid fa-check" style="color:#1EBE57; margin-right:8px;"></i>
-                       *  Latihan & Proyek Nyata
-                    </h3>
-                </li>
-                <li>
-                    <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
-                        <i class="fa-solid fa-check" style="color:#1EBE57; margin-right:8px;"></i>
-                       *  Komunitas & Dukungan Belajar
-                    </h3>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-</body>
-<body>
-
-    <!-- 3️⃣ Features / Benefits -->
-    <section class="section-card" id="benefit">
-
-        <!-- Kiri: -->
-        <div style="color:#080808;">
-            <!-- Subjudul -->
-            <p style="letter-spacing:2px; text-transform:uppercase;">
-                <span>##</span> 
-                Keunggulan Kami
-            </p>
-            
-            <!-- Judul utama -->
-             <h2>
-                Mengapa Memilih Kami
-            </h2>
-            <!-- Daftar Keunggulan -->
-            <div>
-                <div>🚀 Belajar bisa dari nol — cocok untuk pemula tanpa pengalaman coding.</div>
-                <div>💡 Materi selalu update mengikuti tren teknologi industri.</div>
-                <div>🎯 Pendekatan belajar berbasis proyek (project-based learning)</div>
-                <div>🤝 Akses komunitas dan mentoring pribadi dari para ahli.</div>
-            </div>
-        </div>
-
-        <!-- Kanan:  -->
-        <div style="color:purple; max-width: 400px;">
-            <img src="c:\Users\Admin\Pictures\images.jpeg" alt="Logo Flashsoft" width="100%">
-        </div>
-    </section>
-
-</body>
-<body>
-    <!-- 4️⃣ Social Proof / Testimonial -->
-    <section class="section" id="testimonial">
-        <div style="width: 100%;">
-            <p style="text-align: center; letter-spacing: 2px; text-transform: uppercase;">
-                <span style="color:#673499; font-weight: 600;">##</span>
-                Testimoni
-            </p>
-            <h2 style="font-size: 32px; text-align: center; font-weight: 600;">
-                Apa <span style="color:#673499; font-weight: 700;">Kata</span> Mereka?
-            </h2>
-            <div class="grid">
-                <div class="card testimonial">
-                    “Awalnya saya tidak tahu apa-apa tentang coding. Sekarang saya sudah bisa membuat website sendiri!”
-                    <br>– <strong>Intan, Peserta Bootcamp Web Beginner</strong>
-                </div>
-                <div class="card testimonial">
-                    “Mentornya sabar banget dan materinya mudah dipahami. Belajar di Flashsoft bikin semangat terus!”
-                    <br>– <strong>Rafi, Siswa Private Coding</strong>
-                </div>
-                <div class="card testimonial">
-                    “Setelah ikut kelas, saya berhasil diterima magang di startup teknologi.”
-                    <br>– <strong>Dina, Alumni Live Coding React JS</strong>
-                </div>
-                <div class="card testimonial">
-                    “Setelah ikut kelas, saya berhasil diterima magang di startup teknologi.”
-                    <br>– <strong>Alex, Alumni Live Coding React JS</strong>
-                </div>
-                <div class="card testimonial">
-                    “Setelah ikut kelas, saya berhasil diterima magang di startup teknologi.”
-                    <br>– <strong>El, Alumni Live Coding React JS</strong>
-                </div>
-            </div>
-        </div>
-    </section>
-</body>
-
-<!-- 5 pricelist -->
-<!DOCTYPE html>
-<html lang="id">
-
-<head>
-    <!-- Basic Meta -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flashsoft Indonesia - Pricelist</title>
-
-    <style>
-        
-
-        .grid {
-            display: grid;
-            gap: 20px;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            margin-top: 30px;
+        .hero p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
         }
 
-        .card {
-            background: #f9f9f9;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        .hero .subtext {
+            max-width: 600px;
+            margin: 0 auto 25px auto;
+            line-height: 1.6;
+            opacity: 0.9;
         }
 
-        .price-card {
+        .hero .btn {
             background: white;
-            border: 2px solid #673499;
-        }
-
-
-        .text-white {
-            color: white;
-        }
-
-        .text-start {
-            text-align: left;
-        }
-        .pilih-paket {
-            padding: 6px 14px;
-            font-size: 14px;
-            color: #7A3EF2; /* ungu */
-            background-color: white;
-            border: 2px solid #C9A8F7; /* ungu muda seperti gambar */
+            color: #673499;
+            padding: 12px 24px;
             border-radius: 8px;
+            border: none;
             cursor: pointer;
-            font-family: sans-serif;
+            font-weight: 600;
+            transition: 0.3s;
         }
 
-            .pilih-paket:hover {
-                background-color: #F5ECFF;
-            }
+        .hero .btn:hover {
+            background: #f0f0f0;
+        }
 
-    </style>
-</head>
-
-<body>
-    <!-- 5️⃣ Pricing / Offer -->
-    <p style="text-align: center; letter-spacing: 2px; text-transform: uppercase;">
-        <span style="color:#673499; font-weight: 600;">##</span>
-        pricelist
-    </p>
-    <p style="text-align: center; letter-spacing: 2px; text-transform: uppercase;">pilih 
-        <span style="color:#673499; font-weight: 600;">program</span>
-        yang cocok untukmu
-    </p>
-    <div class="grid">
-        <!-- #1 -->
-        <div class="card price-card">
-            <h3 class="text-start" style="margin-bottom: 0;">Private Coding - Basic</h3>
-            <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
-            <p style="text-align:start; font-size:10px; ">Rp :
-                <span style="color:#000000;font-weight: bolder; font-size:30px;">
-                    120.000</span>
-                / Pertemuan
-            </p>
-            <button class="pilih-paket">Pilih Paket</button>
-            <div class="item">
-                <span class="icon">📅</span>
-                <span>1x Pertemuan</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">🕒</span>
-                <span>Durasi belajar 120 menit</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">🏫</span>
-                <span>Pertemuan Offline</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">💻</span>
-                <span>Bahasa Pemrogramman (PHP, Java Dasar, Python Dasar, dll)</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">👨‍🏫</span>
-                <span>Di bimbing mentor one-on-one</span>
-              </div>
-            
-        </div>
-        <!-- #2 -->
-        <div class="card price-card">
-            <h3 class="text-start" style="margin-bottom: 0;">Private Coding - Basic</h3>
-            <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
-            <p style="text-align:start; font-size:10px; ">Rp :
-                <span style="color:#000000;font-weight: bolder; font-size:30px;">
-                    140.000</span>
-                / Pertemuan
-            </p>
-            <button class="pilih-paket">Pilih Paket</button>
-            <div class="item">
-                <span class="icon">📅</span>
-                <span>1x Pertemuan</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">🕒</span>
-                <span>Durasi belajar 120 menit</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">🏫</span>
-                <span>Pertemuan Offline</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">💻</span>
-                <span>Bahasa Pemrogramman (PHP, Java Dasar, Python Dasar, dll)</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">👨‍🏫</span>
-                <span>Di bimbing mentor one-on-one</span>
-              </div>
-            
-        </div>
-        <!-- #3 -->
-        <div class="card price-card">
-            <h3 class="text-start" style="margin-bottom: 0;">Private Coding - Basic</h3>
-            <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
-            <p style="text-align:start; font-size:10px; ">Rp :
-                <span style="color:#000000;font-weight: bolder; font-size:30px;">
-                    150.000</span>
-                / Pertemuan
-            </p>
-            <button class="pilih-paket">Pilih Paket</button>
-            <div class="item">
-                <span class="icon">📅</span>
-                <span>1x Pertemuan</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">🕒</span>
-                <span>Durasi belajar 120 menit</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">🏫</span>
-                <span>Pertemuan Offline</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">💻</span>
-                <span>Bahasa Pemrogramman (PHP, Java Dasar, Python Dasar, dll)</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">👨‍🏫</span>
-                <span>Di bimbing mentor one-on-one</span>
-              </div>
-            
-        </div>
-        <!-- #4 -->
-        <div class="card price-card">
-            <h3 class="text-start" style="margin-bottom: 0;">Private Coding - Basic</h3>
-            <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
-            <p style="text-align:start; font-size:10px; ">Rp :
-                <span style="color:#000000;font-weight: bolder; font-size:30px;">
-                    170.000</span>
-                / Pertemuan
-            </p>
-            <button class="pilih-paket">Pilih Paket</button>
-            <div class="item">
-                <span class="icon">📅</span>
-                <span>1x Pertemuan</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">🕒</span>
-                <span>Durasi belajar 120 menit</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">🏫</span>
-                <span>Pertemuan Offline</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">💻</span>
-                <span>Bahasa Pemrogramman (PHP, Java Dasar, Python Dasar, dll)</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">👨‍🏫</span>
-                <span>Di bimbing mentor one-on-one</span>
-              </div>
-            
-        </div>
-        <!-- #5 -->
-        <div class="card price-card">
-            <h3 class="text-start" style="margin-bottom: 0;">Private Coding - Basic</h3>
-            <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
-            <p style="text-align:start; font-size:10px; ">Rp :
-                <span style="color:#000000;font-weight: bolder; font-size:30px;">
-                    200.000</span>
-                / Pertemuan
-            </p>
-            <button class="pilih-paket">Pilih Paket</button>
-            <div class="item">
-                <span class="icon">📅</span>
-                <span>1x Pertemuan</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">🕒</span>
-                <span>Durasi belajar 120 menit</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">🏫</span>
-                <span>Pertemuan Offline</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">💻</span>
-                <span>Bahasa Pemrogramman (PHP, Java Dasar, Python Dasar, dll)</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">👨‍🏫</span>
-                <span>Di bimbing mentor one-on-one</span>
-              </div>
-            
-        </div>
-        <!-- #6 -->
-        <div class="card price-card">
-            <h3 class="text-start" style="margin-bottom: 0;">Private Coding - Basic</h3>
-            <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
-            <p style="text-align:start; font-size:10px; ">Rp :
-                <span style="color:#000000;font-weight: bolder; font-size:30px;">
-                    220.000</span>
-                / Pertemuan
-            </p>
-            <button class="pilih-paket">Pilih Paket</button>
-            <div class="item">
-                <span class="icon">📅</span>
-                <span>1x Pertemuan</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">🕒</span>
-                <span>Durasi belajar 120 menit</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">🏫</span>
-                <span>Pertemuan Offline</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">💻</span>
-                <span>Bahasa Pemrogramman (PHP, Java Dasar, Python Dasar, dll)</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">👨‍🏫</span>
-                <span>Di bimbing mentor one-on-one</span>
-              </div>
-            
-        </div>
-        <!-- #7 -->
-        <div class="card price-card">
-            <h3 class="text-start" style="margin-bottom: 0;">Private Coding - Basic</h3>
-            <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
-            <p style="text-align:start; font-size:10px; ">Rp :
-                <span style="color:#000000;font-weight: bolder; font-size:30px;">
-                    300.000</span>
-                / Pertemuan
-            </p>
-            <button class="pilih-paket">Pilih Paket</button>
-            <div class="item">
-                <span class="icon">📅</span>
-                <span>1x Pertemuan</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">🕒</span>
-                <span>Durasi belajar 120 menit</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">🏫</span>
-                <span>Pertemuan Offline</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">💻</span>
-                <span>Bahasa Pemrogramman (PHP, Java Dasar, Python Dasar, dll)</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">👨‍🏫</span>
-                <span>Di bimbing mentor one-on-one</span>
-              </div>
-            
-        </div>
-        <!-- #8 -->
-        <div class="card price-card">
-            <h3 class="text-start" style="margin-bottom: 0;">Private Coding - Basic</h3>
-            <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
-            <p style="text-align:start; font-size:10px; ">Rp :
-                <span style="color:#000000;font-weight: bolder; font-size:30px;">
-                    320.000</span>
-                / Pertemuan
-            </p>
-            <button class="pilih-paket">Pilih Paket</button>
-            <div class="item">
-                <span class="icon">📅</span>
-                <span>1x Pertemuan</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">🕒</span>
-                <span>Durasi belajar 120 menit</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">🏫</span>
-                <span>Pertemuan Offline</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">💻</span>
-                <span>Bahasa Pemrogramman (PHP, Java Dasar, Python Dasar, dll)</span>
-              </div>
-            
-              <div class="item">
-                <span class="icon">👨‍🏫</span>
-                <span>Di bimbing mentor one-on-one</span>
-              </div>
-            
-        </div>
-    <!-- 9 -->
-    <div class="card price-card">
-        <h3 class="text-start" style="margin-bottom: 0;">Private Coding - Basic</h3>
-        <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
-        <p style="text-align:start; font-size:10px; ">Rp :
-            <span style="color:#000000;font-weight: bolder; font-size:30px;">
-                2000.000</span>
-            / Pertemuan
-            </p>
-        <button class="pilih-paket">Pilih Paket</button>
-        <div class="item">
-            <span class="icon">📅</span>
-            <span>12x Pertemuan</span>
-          </div>
-        
-          <div class="item">
-            <span class="icon">🕒</span>
-            <span>Durasi belajar 120 menit</span>
-          </div>
-        
-          <div class="item">
-            <span class="icon">🏫</span>
-            <span>Pertemuan Offline</span>
-          </div>
-        
-          <div class="item">
-            <span class="icon">💻</span>
-            <span>Bahasa Pemrogramman (PHP, Java Dasar, Python Dasar, dll)</span>
-          </div>
-        
-          <div class="item">
-            <span class="icon">👨‍🏫</span>
-            <span>Di bimbing mentor one-on-one</span>
-          </div>
-        
-    </div>
-</div>
-</body>
-
-<!--kontak kami-->
-<!DOCTYPE html>
-<html lang="id">
-
-<head>
-    <!-- Basic Meta -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flashsoft Indonesia - Call To Action</title>
-   
-    <style>
-       
         .btn {
             background: white;
             color: #673499;
@@ -859,7 +216,31 @@
             justify-content: center;
             gap: 50px;
         }
-        
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            padding: 3% 7%;
+        }
+
+        .testimonial {
+            font-style: italic;
+        }
+
+        .price-card {
+            background: white;
+            border: 2px solid #673499;
+        }
+
+        footer {
+            text-align: center;
+            background: #f8f8f8;
+            padding: 30px;
+            font-size: 0.9em;
+            color: #555;
+        }
+
         /* CTA Section */
         .cta {
             background: #673499;
@@ -913,6 +294,478 @@
 </head>
 
 <body>
+
+    <!-- ✅ Navbar -->
+    <nav>
+        <img src="https://flashsoftindonesia.com/fs-logo-horizontal-white.png" alt="Flashsoft Indonesia Logo">
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#benefit">Keunggulan Kami</a>
+            <a href="#testimonial">Testimoni</a>
+            <a href="#pricing">Program</a>
+            <a href="#contact">Kontak</a>
+        </div>
+        <a href="#pricing" class="btn-nav">Daftar Sekarang</a>
+    </nav>
+
+    <!-- 1️⃣ Hero Section -->
+    <section class="hero" id="home">
+        <h1>Flashsoft Indonesia</h1>
+        <p class="subtext">
+            Kami membantu Anda membangun solusi software dan mengembangkan talenta digital
+            melalui program pelatihan, bootcamp, dan pembelajaran interaktif.
+        </p>
+        <a href="#pricing" class="btn">Jelajahi Program</a>
+    </section>
+
+
+    <!-- 2️⃣ Problem & Solution Section -->
+    <section class="section" id="problem">
+        <!-- Kiri: Card Ungu -->
+        <div style="flex:1; min-width:280px; padding:30px; text-align:center;">
+            <img src="https://flashsoftindonesia.com/fs-logo-vertical.png" alt="Logo Flashsoft" width="50%">
+        </div>
+
+        <!-- Kanan: Tantangan -->
+        <div style="flex:1; min-width:300px;">
+            <p style="text-align: start;letter-spacing: 0.1em;text-transform: uppercase;">
+                <span style="color:#6a1b9a;font-weight: bolder;">##</span>
+                Kendala dan Solusi
+            </p>
+            <h2
+                style="font-size:30px; margin-bottom:20px;text-align: start;font-weight: lighter;line-height: normal;max-width: 50%;">
+                <span style="color:#6a1b9a;font-weight: bolder;">Kendala</span> yang Sering Dihadapi Calon
+                Programmer
+            </h2>
+            <ul style="text-align:start; list-style:none;">
+                <li>
+                    <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
+                        <i class="fa-solid fa-xmark" style="color:#c00; margin-right:8px;"></i>
+                        Belajar Sendiri Tanpa Arah
+                    </h3>
+                </li>
+
+                <li>
+                    <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
+                        <i class="fa-solid fa-xmark" style="color:#c00; margin-right:8px;"></i>
+                        Kurang
+                        Latihan & Proyek Nyata
+                    </h3>
+                </li>
+
+                <li>
+                    <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
+                        <i class="fa-solid fa-xmark" style="color:#c00; margin-right:8px;"></i>
+                        Tidak Punya Mentor
+                    </h3>
+                </li>
+            </ul>
+
+            <hr style="color: #673499; margin: 30px 0;">
+            <h2 style="font-size:30px; margin-bottom:20px;text-align: start;font-weight: lighter;line-height: normal;">
+                <span style="color:#6a1b9a;font-weight: bolder;">Solusi</span> kami
+            </h2>
+            <ul style="text-align:start; list-style:none;">
+                <li>
+                    <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
+                        <i class="fa-solid fa-check" style="color:#1EBE57; margin-right:8px;"></i>
+                        Program Belajar Terarah
+                    </h3>
+                </li>
+
+                <li>
+                    <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
+                        <i class="fa-solid fa-check" style="color:#1EBE57; margin-right:8px;"></i>
+                        Bimbingan Mentor Profesional
+                    </h3>
+                </li>
+                <li>
+                    <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
+                        <i class="fa-solid fa-check" style="color:#1EBE57; margin-right:8px;"></i>
+                        Latihan & Proyek Nyata
+                    </h3>
+                </li>
+                <li>
+                    <h3 style="text-align: left;font-weight:lighter;font-size:medium;">
+                        <i class="fa-solid fa-check" style="color:#1EBE57; margin-right:8px;"></i>
+                        Komunitas & Dukungan Belajar
+                    </h3>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 3️⃣ Features / Benefits -->
+    <section class="section-card" id="benefit">
+
+        <!-- Kiri: Keunggulan Kami -->
+        <div style="flex:2; min-width:300px; color:white;">
+
+            <!-- Subjudul -->
+            <p style="text-align:start; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:8px;">
+                <span style="color:white; font-weight:bolder;">##</span> Keunggulan Kami
+            </p>
+
+            <!-- Judul utama -->
+            <h2 style="font-size:36px; margin-bottom:20px; text-align:start; font-weight:lighter; line-height:1.3;">
+                Mengapa Memilih <span style="color:white; font-weight:bolder;">Kami</span>
+            </h2>
+
+            <!-- Daftar Keunggulan -->
+            <div style="display:grid; gap:12px; text-align:start; font-size:16px; line-height:1.6;">
+                <div>🚀 Belajar bisa dari nol — cocok untuk pemula tanpa pengalaman coding.</div>
+                <div>💡 Materi selalu update mengikuti tren teknologi industri.</div>
+                <div>🎯 Pendekatan belajar berbasis proyek (project-based learning).</div>
+                <div>🤝 Akses komunitas dan mentoring pribadi dari para ahli.</div>
+            </div>
+
+        </div>
+
+        <!-- Kanan: Card Ungu -->
+        <div style="flex:1; min-width:280px; max-width:400px; padding:30px; text-align:center;">
+            <img src="https://flashsoftindonesia.com/fs-logo-vertical-white.png" alt="Logo Flashsoft" width="50%">
+        </div>
+    </section>
+
+
+    <!-- 4️⃣ Social Proof / Testimonial -->
+    <section class="section" id="testimonial">
+        <div style="width: 100%;">
+            <p style="text-align: start;letter-spacing: 0.1em;text-transform: uppercase;">
+                <span style="color:#6a1b9a;font-weight: bolder;">##</span>
+                Testimoni
+            </p>
+            <h2
+                style="font-size:30px; margin-bottom:20px;text-align: start;font-weight: lighter;line-height: normal;max-width: 50%;">
+                Apa <span style="color:#6a1b9a;font-weight: bolder;">Kata</span> Mereka?
+            </h2>
+            <div class="grid">
+                <div class="card testimonial">
+                    “Awalnya saya tidak tahu apa-apa tentang coding. Sekarang saya sudah bisa membuat website sendiri!”
+                    <br>– <strong>Intan, Peserta Bootcamp Web Beginner</strong>
+                </div>
+                <div class="card testimonial">
+                    “Mentornya sabar banget dan materinya mudah dipahami. Belajar di Flashsoft bikin semangat terus!”
+                    <br>– <strong>Rafi, Siswa Private Coding</strong>
+                </div>
+                <div class="card testimonial">
+                    “Setelah ikut kelas, saya berhasil diterima magang di startup teknologi.”
+                    <br>– <strong>Dina, Alumni Live Coding React JS</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 5️⃣ Pricing / Offer -->
+    <section class="section" id="pricing">
+        <div style="width: 100%;">
+            <p style="text-align: start;letter-spacing: 0.1em;text-transform: uppercase;">
+                <span style="color:#6a1b9a;font-weight: bolder;">##</span>
+                Pricelist
+            </p>
+            <h2
+                style="font-size:30px; margin-bottom:20px;text-align: start;font-weight: lighter;line-height: normal;max-width: 50%;">
+                Pilih <span style="color:#6a1b9a;font-weight: bolder;">Program</span> yang cocok untukmu.
+            </h2>
+            <div class="grid">
+                <!-- #1 -->
+                <div class="card price-card">
+                    <p
+                        style="background: lightgray;border-radius: 10px;padding:5px;letter-spacing: 0.1em;width: 100px;font-size: 10px;margin-left:auto;">
+                        REGULER</p>
+                    <h3 class="text-start" style="margin-bottom: 0;">Private Coding - <span
+                            style="color:goldenrod">Basic</span></h3>
+                    <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
+                    <p class="text-start">Rp <span style="font-size: 28px;font-weight: bold;">120.000</span> / pertemuan
+                    </p>
+                    <a href="#contact" class="btn"
+                        style="width: 100%;margin-bottom: 200px;font-weight: bold;font-size: 20px;">Pilih
+                        Paket</a>
+                    <br><br>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-calendar-days"
+                            style="color:gray;"></i>
+                        1x Pertemuan
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-clock" style="color:gray;"></i>
+                        Durasi belajar 120 menit
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-video" style="color:gray;"></i>
+                        Pertemuan <span style="font-weight: bold;color:#1EBE57;">Online</span></p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-code" style="color:gray;"></i>
+                        Bahasa Pemrograman (PHP,
+                        Java Dasar, Python
+                        Dasar, dll)</p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-user-graduate"
+                            style="color:gray;"></i>
+                        Di bimbing mentor one-on-one</p>
+                </div>
+                <!-- #2 -->
+                <div class="card price-card">
+                    <p
+                        style="background: lightgray;border-radius: 10px;padding:5px;letter-spacing: 0.1em;width: 100px;font-size: 10px;margin-left:auto;">
+                        REGULER</p>
+                    <h3 class="text-start" style="margin-bottom: 0;">Private Coding - <span
+                            style="color:goldenrod">Basic</span></h3>
+                    <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
+                    <p class="text-start">Rp <span style="font-size: 28px;font-weight: bold;">140.000</span> / pertemuan
+                    </p>
+                    <a href="#contact" class="btn"
+                        style="width: 100%;margin-bottom: 10%;font-weight: bold;font-size: 20px;">Pilih
+                        Paket</a>
+                    <br><br>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-calendar-days"
+                            style="color:gray;"></i>
+                        1x Pertemuan
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-clock" style="color:gray;"></i>
+                        Durasi belajar
+                        120 menit
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-video" style="color:gray;"></i>
+                        Pertemuan
+                        <span style="font-weight: bold;">Offline</span>
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-code" style="color:gray;"></i>
+                        Bahasa
+                        Pemrograman (PHP,
+                        Java Dasar, Python
+                        Dasar, dll)</p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-user-graduate"
+                            style="color:gray;"></i>
+                        Di bimbing mentor one-on-one</p>
+                </div>
+                <!-- #3 -->
+                <div class="card price-card">
+                    <p
+                        style="background: lightgray;border-radius: 10px;padding:5px;letter-spacing: 0.1em;width: 100px;font-size: 10px;margin-left:auto;">
+                        REGULER</p>
+                    <h3 class="text-start" style="margin-bottom: 0;">Private Coding - <span
+                            style="color:#673499">Advanced</span></h3>
+                    <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
+                    <p class="text-start">Rp <span style="font-size: 28px;font-weight: bold;">150.000</span> / pertemuan
+                    </p>
+                    <a href="#contact" class="btn"
+                        style="width: 100%;margin-bottom: 10%;font-weight: bold;font-size: 20px;">Pilih
+                        Paket</a>
+                    <br><br>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-calendar-days"
+                            style="color:gray;"></i>
+                        1x Pertemuan
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-clock" style="color:gray;"></i>
+                        Durasi belajar
+                        120 menit
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-video" style="color:gray;"></i>
+                        Pertemuan <span style="font-weight: bold;color:#1EBE57;">Online</span></p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-code" style="color:gray;"></i>
+                        Bahasa
+                        Pemrograman (Android,
+                        Flutter, Data Mining, dll)</p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-user-graduate"
+                            style="color:gray;"></i>
+                        Di bimbing mentor one-on-one</p>
+                </div>
+                <!-- #4 -->
+                <div class="card price-card">
+                    <p
+                        style="background: lightgray;border-radius: 10px;padding:5px;letter-spacing: 0.1em;width: 100px;font-size: 10px;margin-left:auto;">
+                        REGULER</p>
+                    <h3 class="text-start" style="margin-bottom: 0;">Private Coding - <span
+                            style="color:#673499">Advanced</span></h3>
+                    <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
+                    <p class="text-start">Rp <span style="font-size: 28px;font-weight: bold;">170.000</span> / pertemuan
+                    </p>
+                    <a href="#contact" class="btn"
+                        style="width: 100%;margin-bottom: 10%;font-weight: bold;font-size: 20px;">Pilih
+                        Paket</a>
+                    <br><br>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-calendar-days"
+                            style="color:gray;"></i>
+                        1x Pertemuan
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-clock" style="color:gray;"></i>
+                        Durasi belajar
+                        120 menit
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-video" style="color:gray;"></i>
+                        Pertemuan<span style="font-weight: bold;"> Offline</span></p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-code" style="color:gray;"></i>
+                        Bahasa
+                        Pemrograman (Android,
+                        Flutter, Data Mining, dll)</p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-user-graduate"
+                            style="color:gray;"></i>
+                        Di bimbing mentor one-on-one</p>
+                </div>
+                <!-- #1 -->
+                <div class="card price-card">
+                    <p
+                        style="background: lightgray;border-radius: 10px;padding:5px;letter-spacing: 0.1em;width: 100px;font-size: 10px;margin-left:auto;">
+                        REGULER</p>
+                    <h3 class="text-start" style="margin-bottom: 0;">Live Coding - <span
+                            style="color:goldenrod">Basic</span></h3>
+                    <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau instan</p>
+                    <p class="text-start">Rp <span style="font-size: 28px;font-weight: bold;">200.000</span> / pertemuan
+                    </p>
+                    <a href="#contact" class="btn"
+                        style="width: 100%;margin-bottom: 10%;font-weight: bold;font-size: 20px;">Pilih
+                        Paket</a>
+                    <br><br>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-calendar-days"
+                            style="color:gray;"></i>
+                        1x Pertemuan
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-clock" style="color:gray;"></i>
+                        Durasi belajar 120 menit
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-video" style="color:gray;"></i>
+                        Pertemuan <span style="font-weight: bold;color:#1EBE57;">Online</span></p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-code" style="color:gray;"></i>
+                        Bahasa Pemrograman (PHP,
+                        Java Dasar, Python
+                        Dasar, dll)</p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-user-graduate"
+                            style="color:gray;"></i>
+                        Di bimbing mentor one-on-one</p>
+                </div>
+                <!-- #2 -->
+                <div class="card price-card">
+                    <p
+                        style="background: lightgray;border-radius: 10px;padding:5px;letter-spacing: 0.1em;width: 100px;font-size: 10px;margin-left:auto;">
+                        REGULER</p>
+                    <h3 class="text-start" style="margin-bottom: 0;">Live Coding - <span
+                            style="color:goldenrod">Basic</span></h3>
+                    <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau instan</p>
+                    <p class="text-start">Rp <span style="font-size: 28px;font-weight: bold;">220.000</span> / pertemuan
+                    </p>
+                    <a href="#contact" class="btn"
+                        style="width: 100%;margin-bottom: 10%;font-weight: bold;font-size: 20px;">Pilih
+                        Paket</a>
+                    <br><br>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-calendar-days"
+                            style="color:gray;"></i>
+                        1x Pertemuan
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-clock" style="color:gray;"></i>
+                        Durasi belajar
+                        120 menit
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-video" style="color:gray;"></i>
+                        Pertemuan
+                        <span style="font-weight: bold;">Offline</span>
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-code" style="color:gray;"></i>
+                        Bahasa
+                        Pemrograman (PHP,
+                        Java Dasar, Python
+                        Dasar, dll)</p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-user-graduate"
+                            style="color:gray;"></i>
+                        Di bimbing mentor one-on-one</p>
+                </div>
+                <!-- #3 -->
+                <div class="card price-card">
+                    <p
+                        style="background: lightgray;border-radius: 10px;padding:5px;letter-spacing: 0.1em;width: 100px;font-size: 10px;margin-left:auto;">
+                        REGULER</p>
+                    <h3 class="text-start" style="margin-bottom: 0;">Live Coding - <span
+                            style="color:#673499">Advanced</span></h3>
+                    <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau instan</p>
+                    <p class="text-start">Rp <span style="font-size: 28px;font-weight: bold;">300.000</span> / pertemuan
+                    </p>
+                    <a href="#contact" class="btn"
+                        style="width: 100%;margin-bottom: 10%;font-weight: bold;font-size: 20px;">Pilih
+                        Paket</a>
+                    <br><br>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-calendar-days"
+                            style="color:gray;"></i>
+                        1x Pertemuan
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-clock" style="color:gray;"></i>
+                        Durasi belajar
+                        120 menit
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-video" style="color:gray;"></i>
+                        Pertemuan <span style="font-weight: bold;color:#1EBE57;">Online</span></p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-code" style="color:gray;"></i>
+                        Bahasa
+                        Pemrograman (Android,
+                        Flutter, Data Mining, dll)</p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-user-graduate"
+                            style="color:gray;"></i>
+                        Di bimbing mentor one-on-one</p>
+                </div>
+                <!-- #4 -->
+                <div class="card price-card">
+                    <p
+                        style="background: lightgray;border-radius: 10px;padding:5px;letter-spacing: 0.1em;width: 100px;font-size: 10px;margin-left:auto;">
+                        REGULER</p>
+                    <h3 class="text-start" style="margin-bottom: 0;">Live Coding - <span
+                            style="color:#673499">Advanced</span></h3>
+                    <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau instan</p>
+                    <p class="text-start">Rp <span style="font-size: 28px;font-weight: bold;">320.000</span> / pertemuan
+                    </p>
+                    <a href="#contact" class="btn"
+                        style="width: 100%;margin-bottom: 10%;font-weight: bold;font-size: 20px;">Pilih
+                        Paket</a>
+                    <br><br>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-calendar-days"
+                            style="color:gray;"></i>
+                        1x Pertemuan
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-clock" style="color:gray;"></i>
+                        Durasi belajar
+                        120 menit
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-video" style="color:gray;"></i>
+                        Pertemuan<span style="font-weight: bold;"> Offline</span></p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-code" style="color:gray;"></i>
+                        Bahasa
+                        Pemrograman (Android,
+                        Flutter, Data Mining, dll)</p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-user-graduate"
+                            style="color:gray;"></i>
+                        Di bimbing mentor one-on-one</p>
+                </div>
+                <!-- #1 -->
+                <div class="card price-card">
+                    <p
+                        style="background: lightgray;border-radius: 10px;padding:5px;letter-spacing: 0.1em;width: 100px;font-size: 10px;margin-left:auto;">
+                        REGULER</p>
+                    <h3 class="text-start" style="margin-bottom: 0;">Private Coding - <span
+                            style="color:goldenrod">Basic</span></h3>
+                    <p class="text-start" style="font-size: 12px;">Cocok untuk yang mau belajar</p>
+                    <p class="text-start" style="margin-bottom:0;"> <del
+                            style="font-size: 14px;margin-left:10%;margin-bottom:0px;">1.440.000</del>
+                    </p>
+                    <p class="text-start">Rp <span style="font-size: 28px;font-weight: bold;">1.296.000</span> / bln
+                    </p>
+                    <a href="#contact" class="btn"
+                        style="width: 100%;margin-bottom: 10%;font-weight: bold;font-size: 20px;">Pilih
+                        Paket</a>
+                    <br><br>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-calendar-days"
+                            style="color:gray;"></i>
+                        12x Pertemuan
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-clock" style="color:gray;"></i>
+                        Durasi belajar
+                        120 menit
+                    </p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-video" style="color:gray;"></i>
+                        Pertemuan <span style="font-weight: bold;color:#1EBE57;">Online</span></p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-code" style="color:gray;"></i>
+                        Bahasa
+                        Pemrograman (Android,
+                        Flutter, Data Mining, dll)</p>
+                    <p class="text-start" style="font-size: 12px;"><i class="fa-solid fa-user-graduate"
+                            style="color:gray;"></i>
+                        Di bimbing mentor one-on-one</p>
+                </div>
+            </div>
+    </section>
 
     <!-- 6️⃣ CTA Section -->
     <section class="cta" id="contact">
@@ -969,40 +822,12 @@
     Program: ${program}%0A
     Mohon info lebih lanjut ya!`;
 
-            const waLink = `https://wa.me/${adminNumber}?text=${message}`;
+            
+    const waLink = `https://wa.me/${adminNumber}?text=${message}`;
             window.open(waLink, "_blank");
         }
     </script>
 
-
-</body>
-
-<!--footer-->
-
-<!DOCTYPE html>
-<html lang="id">
-
-<head>
-    <!-- Basic Meta -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flashsoft Indonesia - Footer</title>
-   
-    <style>
-       
-
-        footer {
-            text-align: center;
-            background: #f8f8f8;
-            padding: 30px;
-            font-size: 0.9em;
-            color: #555;
-        }
-
-    </style>
-</head>
-
-<body>
 
     <!-- 7️⃣ Footer -->
     <footer>
@@ -1011,10 +836,4 @@
 
 </body>
 
-</html>
-
-</html>
-
-
-</html>
 </html>
